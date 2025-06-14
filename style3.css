@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.picture {
+    width: 40%;
+    height: 80vh;
+    margin-top: 5%;
+}
+
+.picture image {
+    object-fit: cover;
+    width: 100px;
+}
+
+.content {
+    width: 60%;
+    height: 50vh;
+}
+
+.content h1,
+p,
+button {
+    margin-top: 10px 0;
+}
+
